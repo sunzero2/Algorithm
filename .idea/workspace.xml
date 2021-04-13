@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae6be907-d3b1-4f41-98fd-b50f288de4e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon_20200413/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon_20200413/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,15 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,6 +115,7 @@
       <updated>1618238802002</updated>
       <workItem from="1618238804569" duration="5480000" />
       <workItem from="1618314253972" duration="5749000" />
+      <workItem from="1618330455125" duration="5346000" />
     </task>
     <servers />
   </component>
