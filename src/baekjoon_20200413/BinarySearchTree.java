@@ -23,16 +23,16 @@ public class BinarySearchTree {
         this.root = root;
     }
 
-    public Node search(int searchNode) {
+    public boolean search(int searchNode) {
         Node currentNode = root;
 
         while (true) {
             if (currentNode == null) {
-                return null;
+                return false;
             }
 
             if (searchNode == currentNode.value) {
-                return currentNode;
+                return true;
             } else if (searchNode < currentNode.value) {
                 currentNode = currentNode.left;
             } else {
@@ -59,14 +59,14 @@ public class BinarySearchTree {
         return currentNode;
     }
 
-    public boolean delete(int deleteNode) {
+    public void delete(int deleteNode) {
         Node currentNode = root;
         Node parentNode = null;
         boolean isLeftChild = true;
 
         while (true) {
             if (currentNode == null) {
-                return false;
+                return;
             }
 
             if (deleteNode == currentNode.value) {
@@ -84,42 +84,45 @@ public class BinarySearchTree {
             }
         }
 
-        if (currentNode.left == null) {
-            if (currentNode == root) {
-                root = currentNode.right;
-            } else if (isLeftChild) {
-                parentNode.left = currentNode.right;
-            } else {
-                parentNode.right = currentNode.right;
-            }
-        } else if (currentNode.right == null) {
-            if (currentNode == root) {
-                root = currentNode.left;
-            } else if (isLeftChild) {
-                parentNode.left = currentNode.left;
-            } else {
-                parentNode.right = currentNode.left;
-            }
-        } else {
+        Node childNode = currentNode.left == null ? currentNode.right : currentNode.left;
+
+        if (currentNode.left != null && currentNode.right != null) {
             parentNode = currentNode;
-            Node left = currentNode.left;
             isLeftChild = true;
 
-            while (left.right != null) {
-                parentNode = left;
-                left = left.right;
+            while (childNode.right != null) {
+                parentNode = childNode;
+                childNode = childNode.right;
                 isLeftChild = false;
             }
 
-            root = left;
+            currentNode = childNode;
 
             if (isLeftChild) {
-                parentNode.left = left.left;
+                parentNode.left = childNode.left;
             } else {
-                parentNode.right = left.left;
+                parentNode.right = childNode.left;
+            }
+        } else {
+            if (currentNode == root) {
+                root = childNode;
+            } else if (isLeftChild) {
+                parentNode.left = childNode;
+            } else {
+                parentNode.right = childNode;
             }
         }
+    }
 
-        return true;
+    public void print() {
+        printSubTree(root);
+    }
+
+    private void printSubTree(Node node) {
+        if (node != null) {
+            printSubTree(node.left);
+            System.out.print(node.value + ", ");
+            printSubTree(node.right);
+        }
     }
 }
