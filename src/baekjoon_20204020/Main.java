@@ -11,7 +11,7 @@ import java.util.*;
 public class Main {
     static ArrayList<Integer>[] adl;
     static boolean[] visited; // 찾을 노드를 방문했는지 체크하기 위한 배열
-    static int[] check; // 타겟 노드까지 몇 개의 노드를 거쳤는지 체크하기 위한 배열
+    static int[] weight; // 타겟 노드까지 몇 개의 노드를 거쳤는지 체크하기 위한 배열
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -43,7 +43,7 @@ public class Main {
             for (int j = 0; j < n; j++) {
                 if (j != i) { // 자기 자신 찾는 것을 방지하기 위해 if문 씀
                     visited = new boolean[n];
-                    check = new int[n];
+                    weight = new int[n];
                     sum += bfs(i, j);
                 }
             }
@@ -68,11 +68,11 @@ public class Main {
             for (int i = 0; i < adl[currentNode].size(); i++) {
                 int next = adl[currentNode].get(i); // next에는 현재 방문한 노드와 관계를 가지고 있는 노드들이 담긴다.
                 if (!visited[next]) {
-                    check[next] = check[currentNode] + 1; // 타겟 노드를 찾기 위해 next 노드들을 방문했다는 것을 체크한다.
+                    weight[next] = weight[currentNode] + 1; // 타겟 노드를 찾기 위해 next 노드들을 방문했다는 것을 체크한다.
                     visited[next] = true;
 
                     if (next == target) {
-                        return check[next];
+                        return weight[next];
                     }
 
                     que.add(next);
