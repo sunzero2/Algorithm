@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae6be907-d3b1-4f41-98fd-b50f288de4e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon_20200419/baekjoon_10026/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon_20200419/baekjoon_2468/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon_20204020/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20200414/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20200414/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="BstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon_20200413.BstTest" />
       <module name="Algorithm" />
@@ -116,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon_20200412.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon_20204020.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon_20200412.*" />
+          <option name="PATTERN" value="baekjoon_20204020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,24 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.BstTest" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,8 @@
       <workItem from="1618314253972" duration="5749000" />
       <workItem from="1618330455125" duration="5346000" />
       <workItem from="1618410676800" duration="5785000" />
-      <workItem from="1618829722120" duration="5991000" />
+      <workItem from="1618829722120" duration="6493000" />
+      <workItem from="1618916723332" duration="7805000" />
     </task>
     <servers />
   </component>
@@ -199,61 +200,59 @@
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
     <state x="0" y="154" key="#Project_Structure/0.0.1600.1160@0.0.1600.1160" timestamp="1618238845845" />
-    <state width="930" height="364" key="GridCell.Tab.0.bottom" timestamp="1618836117085">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="809" height="328" key="GridCell.Tab.0.bottom" timestamp="1618925074348">
+      <screen x="0" y="23" width="1680" height="983" />
     </state>
     <state width="714" height="236" key="GridCell.Tab.0.bottom/0.0.1600.1160@0.0.1600.1160" timestamp="1618418221745" />
-    <state width="930" height="364" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1618836117085" />
-    <state width="930" height="364" key="GridCell.Tab.0.center" timestamp="1618836117084">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="930" height="364" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1618836796589" />
+    <state width="809" height="328" key="GridCell.Tab.0.bottom/0.23.1680.983@0.23.1680.983" timestamp="1618925074348" />
+    <state width="809" height="328" key="GridCell.Tab.0.center" timestamp="1618925074346">
+      <screen x="0" y="23" width="1680" height="983" />
     </state>
     <state width="714" height="236" key="GridCell.Tab.0.center/0.0.1600.1160@0.0.1600.1160" timestamp="1618418221745" />
-    <state width="930" height="364" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1618836117084" />
-    <state width="930" height="364" key="GridCell.Tab.0.left" timestamp="1618836117083">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="930" height="364" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1618836796588" />
+    <state width="809" height="328" key="GridCell.Tab.0.center/0.23.1680.983@0.23.1680.983" timestamp="1618925074346" />
+    <state width="809" height="328" key="GridCell.Tab.0.left" timestamp="1618925074344">
+      <screen x="0" y="23" width="1680" height="983" />
     </state>
     <state width="714" height="236" key="GridCell.Tab.0.left/0.0.1600.1160@0.0.1600.1160" timestamp="1618418221744" />
-    <state width="930" height="364" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1618836117083" />
-    <state width="930" height="364" key="GridCell.Tab.0.right" timestamp="1618836117085">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="930" height="364" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1618836796587" />
+    <state width="809" height="328" key="GridCell.Tab.0.left/0.23.1680.983@0.23.1680.983" timestamp="1618925074344" />
+    <state width="809" height="328" key="GridCell.Tab.0.right" timestamp="1618925074347">
+      <screen x="0" y="23" width="1680" height="983" />
     </state>
     <state width="714" height="236" key="GridCell.Tab.0.right/0.0.1600.1160@0.0.1600.1160" timestamp="1618418221745" />
-    <state width="930" height="364" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1618836117085" />
-    <state width="930" height="364" key="GridCell.Tab.1.bottom" timestamp="1618836118409">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="930" height="364" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1618836796588" />
+    <state width="809" height="328" key="GridCell.Tab.0.right/0.23.1680.983@0.23.1680.983" timestamp="1618925074347" />
+    <state width="809" height="328" key="GridCell.Tab.1.bottom" timestamp="1618925075682">
+      <screen x="0" y="23" width="1680" height="983" />
     </state>
     <state width="714" height="394" key="GridCell.Tab.1.bottom/0.0.1600.1160@0.0.1600.1160" timestamp="1618418217730" />
-    <state width="930" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1618836118409" />
-    <state width="930" height="364" key="GridCell.Tab.1.center" timestamp="1618836118408">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="930" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1618836796590" />
+    <state width="809" height="328" key="GridCell.Tab.1.bottom/0.23.1680.983@0.23.1680.983" timestamp="1618925075682" />
+    <state width="809" height="328" key="GridCell.Tab.1.center" timestamp="1618925075680">
+      <screen x="0" y="23" width="1680" height="983" />
     </state>
     <state width="714" height="394" key="GridCell.Tab.1.center/0.0.1600.1160@0.0.1600.1160" timestamp="1618418217729" />
-    <state width="930" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1618836118408" />
-    <state width="930" height="364" key="GridCell.Tab.1.left" timestamp="1618836118408">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="930" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1618836796590" />
+    <state width="809" height="328" key="GridCell.Tab.1.center/0.23.1680.983@0.23.1680.983" timestamp="1618925075680" />
+    <state width="809" height="328" key="GridCell.Tab.1.left" timestamp="1618925075679">
+      <screen x="0" y="23" width="1680" height="983" />
     </state>
     <state width="714" height="394" key="GridCell.Tab.1.left/0.0.1600.1160@0.0.1600.1160" timestamp="1618418217729" />
-    <state width="930" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1618836118408" />
-    <state width="930" height="364" key="GridCell.Tab.1.right" timestamp="1618836118409">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="930" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1618836796589" />
+    <state width="809" height="328" key="GridCell.Tab.1.left/0.23.1680.983@0.23.1680.983" timestamp="1618925075679" />
+    <state width="809" height="328" key="GridCell.Tab.1.right" timestamp="1618925075681">
+      <screen x="0" y="23" width="1680" height="983" />
     </state>
     <state width="714" height="394" key="GridCell.Tab.1.right/0.0.1600.1160@0.0.1600.1160" timestamp="1618418217730" />
-    <state width="930" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1618836118409" />
-    <state x="74" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1618835339226">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="930" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1618836796590" />
+    <state width="809" height="328" key="GridCell.Tab.1.right/0.23.1680.983@0.23.1680.983" timestamp="1618925075681" />
+    <state x="74" y="242" width="670" height="633" key="search.everywhere.popup" timestamp="1618919049088">
+      <screen x="0" y="23" width="1680" height="983" />
     </state>
     <state x="70" y="259" key="search.everywhere.popup/0.0.1600.1160@0.0.1600.1160" timestamp="1618243430621" />
     <state x="74" y="234" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1618835339226" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon_20200419/baekjoon_10026/Main.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="74" y="242" width="670" height="633" key="search.everywhere.popup/0.23.1680.983@0.23.1680.983" timestamp="1618919049088" />
   </component>
 </project>
