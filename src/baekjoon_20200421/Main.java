@@ -21,6 +21,7 @@ public class Main {
             int N = Integer.parseInt(br.readLine());
             arr = new int[N];
             finished = new boolean[N];
+            visited = new boolean[N];
             StringTokenizer st = new StringTokenizer(br.readLine());
             for (int j = 0; j < N; j++) {
                 arr[j] = Integer.parseInt(st.nextToken()) - 1;
@@ -28,12 +29,10 @@ public class Main {
 
             cnt = 0;
             for (int j = 0; j < N; j++) {
-                visited = new boolean[N];
                 dfs(j);
             }
 
-            System.out.println(Arrays.toString(finished));
-            System.out.println(cnt);
+            System.out.println(N - cnt);
         }
     }
 
