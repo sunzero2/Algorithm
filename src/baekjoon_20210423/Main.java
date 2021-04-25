@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    static int[][] arr;
+    static ArrayList<Integer>[] adl;
     static boolean[] visited;
     static int[] finished;
 
@@ -14,58 +14,47 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
-        arr = new int[N][N];
-        visited = new boolean[N];
+        adl = new ArrayList[N];
         finished = new int[N];
+
+        for (int i = 0; i < N; i++) {
+            adl[i] = new ArrayList<>();
+        }
 
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
             int a = Integer.parseInt(st.nextToken()) - 1;
             int b = Integer.parseInt(st.nextToken()) - 1;
 
-            arr[a][b] = 1;
+            adl[a].add(b);
         }
 
         for (int i = 0; i < N; i++) {
-            finished[i] = !visited[i] ? dfs(i) : finished[i];
-            visited[i] = true;
+            visited = new boolean[N];
+            dfs(i);
         }
 
         int max = 0;
         for (int i = 0; i < N; i++) {
-            int cnt = finished[i];
+            max = Math.max(max, finished[i]);
+        }
 
-            if (max < cnt) {
-                max = cnt;
-                bw = new BufferedWriter(new OutputStreamWriter(System.out));
-                bw.write(String.valueOf(i + 1));
-            } else if (max == cnt) {
-                bw.write(" " + (i + 1));
-            }
+        for (int i = 0; i < N; i++) {
+            if (max == finished[i]) bw.write((i + 1) + " ");
         }
 
         bw.flush();
         bw.close();
     }
 
-    public static int dfs(int node) {
-        int cnt = 0;
-        if (!visited[node]) {
-            for (int i = 0; i < arr.length; i++) {
-                if (arr[i][node] > 0) {
-                    ++cnt;
-                    if (!visited[i]) {
-                        cnt += dfs(i);
-                        visited[i] = true;
-                    } else {
-                        cnt += finished[i];
-                    }
-                }
+    public static void dfs(int node) {
+        visited[node] = true;
+
+        for (int n : adl[node]) {
+            if (!visited[n]) {
+                finished[n]++;
+                dfs(n);
             }
-
-            finished[node] = cnt;
         }
-
-        return cnt;
     }
 }
