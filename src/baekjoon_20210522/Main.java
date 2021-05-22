@@ -5,16 +5,22 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int k = Integer.parseInt(br.readLine());
-    }
+        int cnt = 0;
 
-    public static int dp(int k) {
-        int bigSugar = 5;
-        int smallSugar = 3;
+        while (true) {
+            if (k % 5 == 0) {
+                System.out.println(k / 5 + cnt);
+                break;
+            } else if (k <= 0) {
+                System.out.println(-1);
+                break;
+            }
 
-        return -1;
+            k = k - 3;
+            cnt++;
+        }
     }
 }
