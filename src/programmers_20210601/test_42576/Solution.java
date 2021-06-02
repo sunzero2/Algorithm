@@ -1,4 +1,4 @@
-package programmers_202010601.test_42576;
+package programmers_20210601.test_42576;
 
 import java.util.HashMap;
 

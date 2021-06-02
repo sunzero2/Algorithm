@@ -1,4 +1,4 @@
-package programmers_202010601.test_12977;
+package programmers_20210601.test_12977;
 
 public class Main {
     public static void main(String[] args) {
