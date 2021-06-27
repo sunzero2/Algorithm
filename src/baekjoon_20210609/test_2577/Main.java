@@ -1,4 +1,4 @@
-package beakjoon_20210609.test_2577;
+package baekjoon_20210609.test_2577;
 
 import java.io.BufferedReader;
 import java.io.IOException;
