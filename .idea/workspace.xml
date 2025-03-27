@@ -23,43 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae6be907-d3b1-4f41-98fd-b50f288de4e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon_20250318/test_10814/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon_20250325/test_11050/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon_20250327/test_9012/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210412/Main$Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210412/Main$Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210412/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210412/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210413/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210413/BinarySearchTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210413/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210413/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210413/BstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210413/BstTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210413/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210413/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210414/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210414/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210419/baekjoon_10026/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210419/baekjoon_10026/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210419/baekjoon_2468/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210419/baekjoon_2468/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210420/FloydWarshallAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210420/FloydWarshallAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210420/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210420/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210421/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210421/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210423/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210423/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210522/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210522/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210609/test_11720/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210609/test_11720/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210609/test_2577/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/baekjoon_20210609/test_2577/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/dynamic_programming/Knapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/dynamic_programming/Knapsack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/dynamic_programming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/dynamic_programming/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210601/test_12977/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210601/test_12977/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210601/test_12977/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210601/test_12977/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210601/test_42576/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210601/test_42576/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210601/test_42576/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210601/test_42576/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210602/test_42840/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210602/test_42840/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210602/test_42840/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210602/test_42840/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210611/test_77484/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210611/test_77484/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210611/test_77484/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210611/test_77484/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210628/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210628/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210628/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210628/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210703/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210703/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210703/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers_20210703/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/test/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/test/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +76,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -135,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beakjoon_20220606.test_2562.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon_20250325.test_11050.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beakjoon_20220606.test_2562.*" />
+          <option name="PATTERN" value="baekjoon_20250325.test_11050.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon_20250327.test_9012.Main" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon_20250327.test_9012.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,19 +133,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="baekjoon_20250318.test_10814.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beakjoon_20220606.test_1546.Main" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beakjoon_20220606.test_1546.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +293,8 @@
       <workItem from="1654516212900" duration="5945000" />
       <workItem from="1654844188677" duration="604000" />
       <workItem from="1667132705019" duration="2305000" />
-      <workItem from="1742290168791" duration="967000" />
+      <workItem from="1742290168791" duration="1139000" />
+      <workItem from="1742907981022" duration="4819000" />
     </task>
     <servers />
   </component>
